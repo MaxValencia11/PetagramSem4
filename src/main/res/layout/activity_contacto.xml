@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Contacto">
+
+    <include android:id="@+id/miActionbar2"
+        layout="@layout/actionbar2"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/miActionbar2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/ContactoTitulo"
+            android:textSize="@dimen/ContactoTitulo"
+            android:padding="@dimen/ContactoPadding"
+            android:layout_marginVertical="@dimen/ContactoTituloMarginVer"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etContactosNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/ContactoNombre"
+            android:layout_marginVertical="@dimen/ContactoETMarginVer"
+            android:layout_marginHorizontal="@dimen/ContactoETMarginHor"
+            android:maxLines="1"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etContactosCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/ContactoMail"
+            android:layout_marginVertical="@dimen/ContactoETMarginVer"
+            android:layout_marginHorizontal="@dimen/ContactoETMarginHor"
+            android:maxLines="1"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etContactosMensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/ContactoMensaje"
+            android:layout_marginVertical="@dimen/ContactoETMarginVer"
+            android:layout_marginHorizontal="@dimen/ContactoETMarginHor"
+            android:maxLines="10"/>
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ContactoBoton"
+            android:layout_marginTop="@dimen/ContactoBotonMargTop"
+            android:layout_marginHorizontal="@dimen/ContactoBotonMargHor"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

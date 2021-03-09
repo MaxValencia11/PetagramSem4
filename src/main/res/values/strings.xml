@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Petagram</string>
+
+    <string name="CVnombre">Mascota</string>
+    <string name="CVRating">5</string>
+    <string name="email">max@gmail.com</string>
+    <string name="pnombre">nombre</string>
+    <string name="ptelefono">telefono</string>
+    <string name="pemail">email</string>
+
+    <string name="opc_contacto">Contacto</string>
+    <string name="opc_acerca">Acerca de</string>
+
+    <string name="ContactoTitulo">Envia tus comentarios!</string>
+    <string name="ContactoNombre">Nombre</string>
+    <string name="ContactoMail">E-mail</string>
+    <string name="ContactoMensaje">Comentarios</string>
+    <string name="ContactoBoton">Enviar</string>
+
+    <string name="AcercaTitulo">fue desarrollada por Maximiliano R. V.</string>
+    <string name="AcercaBio">Actual estudiante de la Benemérita Universidad Autónoma de Puebla dentro de
+    la Licenciatura en Ingeniería en Ciencias de la Computación.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
